@@ -1,1 +1,17 @@
 tic-tac-toe
+
+
+- First, we need to define Gameboard and the Cell Components along with the CSS so that we can see it in UI.
+- We need Cell to be declarative component. Cell will display the value(X or O) or will be empty. thats all it need to know
+- GameBoard contains the state
+    - Cells Arrays
+    - who is the next player to move.
+    - who is the winner 
+    
+- Actions: 
+1. Player clicks the cell --> the cell will inturn marks the cells array value --> Gameboard component will be rendered again(will check for winner and change the player) 
+      --> Gameboard will contain marked user.
+2. PLayer click the cell nothig will happen if the cell is already marked.
+
+Question is how do we change nextplayer state.
+how do we compute the winner logic.
